@@ -20,7 +20,11 @@
   reasons why this could be the case, given that reasoning with the asymptotic
   complexity suggests a different time.
 
-  Poorly managed trees drastically effect runtime, where they may not have the desired amount of children, or one "side" may have significantly more elements than the other. Different languages have different best uses for them too, which would affect performance, such as using C++ vs Java, where C++ could potentially perform better because of the better freedoms with memory allocation. The third reason is similar to the last one, where if you are using a language like C++, the memory allocation may not be done very well, with pointers being used in an inefficient manner, which is easy to do.
+  Poorly managed trees drastically effect runtime, where they may not have the desired amount of children, or one "side" may have significantly more elements than the other.
+
+  Different languages have different best uses for them too, which would affect performance, such as using C++ vs Java, where C++ could potentially perform better because of the better freedoms with memory allocation.
+
+  The third reason is similar to the last one, where if you are using a language like C++, the memory allocation may not be done very well, with pointers being used in an inefficient manner, which is easy to do.
 
 Add your answers to this markdown file.
 
