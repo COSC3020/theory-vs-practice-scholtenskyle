@@ -5,7 +5,7 @@
 
   Things like lower order terms may be ignored in asymptotic analysis, but obviously wouldn't be ignored in practice as everything is used. Even just this one example leads to more inputs in practice.
 
-  Optimization of the code's use of hardware always has an impact on the performance of the code. If it is not optimized properly to utilize resources efficiently, the code may run slow in practice.
+  Optimization of the code's use of hardware always has an impact on the performance of the code. If it is not optimized properly to utilize resources efficiently, the code may run slow in practice. For example, sometimes things like a GPU can be used in hardware acceleration to help optimize a program.
 
   Similarly to the previous example, different uses of the software aspects of the computer would affect runtime, like using different compilers that use more resources, thus working slower.
 
@@ -20,11 +20,11 @@
   reasons why this could be the case, given that reasoning with the asymptotic
   complexity suggests a different time.
 
-  Poorly managed trees drastically effect runtime, where they may not have the desired amount of children, or one "side" may have significantly more elements than the other.
+  Poorly managed trees drastically effect runtime, where they may not have the desired amount of children, or one "side" may have significantly more elements than the other. For instance, if a binary tree where not balanced properly, with one side containing many more elements than the other, this could affect runtime. This would only affect larger data sets if the balancing was done, but not properly (where the further down the tree you go, the less organized it becomes).
 
-  Different languages have different best uses for them too, which would affect performance, such as using C++ vs Java, where C++ could potentially perform better because of the better freedoms with memory allocation.
+  Different languages have different best uses for them too, which would affect performance, such as using C++ vs Java, where C++ could potentially perform better because of the better freedoms with memory allocation. You could potetially only allocate memory properly for a few iterations of code, where it starts becoming a mess after that.
 
-  The third reason is similar to the last one, where if you are using a language like C++, the memory allocation may not be done very well, with pointers being used in an inefficient manner, which is easy to do.
+  The third reason is similar to the last one, where if you are using a language like C++, the memory allocation may not be done very well, with pointers being used in an inefficient manner, which is easy to do. Also like before, iterations may become less efficient as time goes on, with pointers constantly being redirected, as memory is already allocated to the popular spots.
 
 Add your answers to this markdown file.
 
